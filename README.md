@@ -54,7 +54,7 @@ This system allows players to:
 
 ## 🔄 Notes
 
-- Uses `player:SetDisplayId(...)`, not full morph (gear is hidden)
+- Uses `player:SetDisplayId(...)`, not full morph (gear is visible at classic races - not visible at specials)
 - Only 1 morph is stored per character
 - Easily extendable with new models
 
