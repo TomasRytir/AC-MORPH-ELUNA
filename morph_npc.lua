@@ -24,7 +24,7 @@ local morphs = {
 }
 
 function OnGossipHello(event, player, unit)
-    player:GossipMenuAddItem(0, "Změnit zpět na původní vzhled", 0, 9999)
+    player:GossipMenuAddItem(0, "Restore original look", 0, 9999)
     for i, morph in ipairs(morphs) do
         player:GossipMenuAddItem(0, morph.label, 0, i)
     end
